@@ -11,4 +11,7 @@ def count_logic(answer,guess):
                     bulls += 1
                 else:
                     cows += 1
+
+
+    print("Bulls:"+str(bulls)+" Cows:"+str(cows))
     return bulls,cows

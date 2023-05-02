@@ -14,6 +14,5 @@ if __name__ == '__main__':
     guess = '4215'
 
     bulls, cows = count_logic.count_logic(answer,guess)
-    print("Bulls:"+str(bulls)+" Cows:"+str(cows))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
